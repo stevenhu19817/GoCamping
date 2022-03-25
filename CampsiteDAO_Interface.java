@@ -10,7 +10,7 @@ public interface CampsiteDAO_Interface {
 	CampsiteVO findbyPrimaryKey(Integer campId);
 	List<CampsiteVO> getAll();
 	List<CampsiteVO> getSearchCampsite(String campName);
-	List<CampsiteVO> getAll(Map<String, String[]> map); // ½Æ¦X¬d¸ß
+	List<CampsiteVO> getAll(Map<String, String[]> map);
 	void updateForOne(CampsiteVO campsiteVO);
 	void updatePic(CampsiteVO VO);
 }
